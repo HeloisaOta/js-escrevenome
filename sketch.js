@@ -5,10 +5,10 @@ function setup() {
   
   function draw() {
     stroke("blue");
-    Fill("red");
+    fill("red");
 
     if(mouseIsPressed){
-        Rect(mouseX, mouseY, 20, 35);
+      rect(mouseX, mouseY, 20, 35);
     }
 
   }
